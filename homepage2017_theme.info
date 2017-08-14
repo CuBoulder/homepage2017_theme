@@ -1,11 +1,11 @@
-name = Homepage 2016
+name = Homepage 2017
 screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
 base theme = 'expressbase'
 
 ; Stylesheets
-stylesheets[screen][] = css/homepage2016-styles.css
+stylesheets[screen][] = css/homepage2017-styles.css
 
 ; Regions
 regions[content] = 'Content'
