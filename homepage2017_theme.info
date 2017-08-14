@@ -3,7 +3,7 @@ screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
 base theme = 'expressbase'
-version = 7.x-1.1
+version = 7.x-1.2
 
 ; Stylesheets
 stylesheets[screen][] = css/homepage2017-styles.css
@@ -18,6 +18,8 @@ regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
 regions[intro] = 'Wide Intro'
 regions[slider] = 'Slider'
+regions[post_title_wide] = 'Post Title Wide'
+regions[post_title] = 'Post Title'
 regions[help] = 'Help'
 regions[wide_2] = 'Wide Post'
 regions[after_content] = 'After Content'
