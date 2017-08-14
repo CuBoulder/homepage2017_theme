@@ -3,6 +3,7 @@ screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
 base theme = 'expressbase'
+version = 7.x-1.1
 
 ; Stylesheets
 stylesheets[screen][] = css/homepage2017-styles.css
