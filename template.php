@@ -19,7 +19,7 @@ function homepage2017_theme_preprocess_html(&$vars) {
 
 
   // SET BANNER COLOR (banner-white, banner-light, banner-cumodern, banner-black)
-  $banner_color = theme_get_setting('banner_color', 'homepage2016') ? theme_get_setting('banner_color', 'homepage2017_theme') : 'black';
+  $banner_color = theme_get_setting('banner_color', 'homepage2017_theme') ? theme_get_setting('banner_color', 'homepage2017_theme') : 'black';
   //$banner_color = 'light';
   $vars['classes_array'][]='banner-' . $banner_color;
   $layout = theme_get_setting('layout_style', 'homepage2017_theme') ? theme_get_setting('layout_style', 'homepage2017_theme') : 'layout-wide';
